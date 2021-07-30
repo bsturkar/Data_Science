@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Recommendation System</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+ <br><br><br>
+
+            <form action="{{ url_for('recommend')}}" method="post">
+
+        <h3>movie</h3>
+            <input id="first" name="Year">       
+         <input type="submit" value="Submit" class="btn btn-secondary">
+        </form>
+
+        <br>
+        <br>
+        <h3>{{ title}}</h3>
+
+        <br>
+        <br>
+</body>
+
+</html>
